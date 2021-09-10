@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#gameContainer{
+    width: 1200px;
+    height: 500px;
+    background-color: black;
+    box-shadow: 0px 0px 35px black;
+    border-radius: 12px;
+    position: relative;
+}
+.paddle{
+    width: 30px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+    /* border-radius: 1%; */
+}
+#user-paddle{
+top: 175px;
+left: 5px;
+cursor: pointer;
+}
+#computer-paddle{
+top: 175px;
+right: 5px;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 235px;
+    left: 585px;
+}
+.net{
+    font-size: 250%;
+    position: absolute;
+    top: 0%;
+    left: 590px;
+}
+.score{
+    color:white;
+    font-size: 500%;
+    position: absolute;
+}
+#user-score{
+    top: 5px;
+    left: 525px;
+}
+#computer-score{
+    top: 5px;
+    right: 525px;
+} 
